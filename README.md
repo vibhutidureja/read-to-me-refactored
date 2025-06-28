@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Read To Me - Text-to-Speech Application
 
 A modern web application that converts text to speech and can read PDF files aloud. Built with React, Node.js, and MongoDB.
@@ -192,3 +193,6 @@ This project is licensed under the ISC License.
 ## Support
 
 For support or questions, please open an issue in the repository. 
+=======
+# read-to-me-refactored
+>>>>>>> 078ff082d082769a11843beb8269ba91346793ae
