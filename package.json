@@ -1,0 +1,40 @@
+{
+  "name": "read-to-me-refactored",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "text-to-speech",
+    "pdf-reader",
+    "react",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "A text-to-speech application with PDF reading capabilities",
+  "dependencies": {
+    "@types/react-pdf": "^6.2.0",
+    "axios": "^1.10.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.0",
+    "nodemon": "^3.1.10",
+    "pdfjs-dist": "^5.3.31",
+    "react-router-dom": "^7.6.2"
+  },
+  "devDependencies": {
+    "@types/pdfjs-dist": "^2.10.377",
+    "concurrently": "^8.2.2"
+  }
+}
