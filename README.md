@@ -12,6 +12,12 @@ A modern web application that converts text to speech and can read PDF files alo
 - 🔒 Protected routes
 - 📱 Mobile-friendly design
 
+- ##Screenshots
+- ![image](https://github.com/user-attachments/assets/cd4c8926-c033-464a-9ced-889d9108b874)
+- ![image](https://github.com/user-attachments/assets/c3c4b337-8f20-42ca-a187-d730f8060364)
+
+
+
 ## Tech Stack
 
 ### Frontend
